@@ -1,0 +1,42 @@
+/* reset */
+body, div, p, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, table, tr, th, td, form, fieldset, legend, input, label, textarea, select, button {margin: 0; padding: 0;}
+body, h1, h2, h3, h4, h5, h6 {font-size: 12px; font-family: 'S-Core', sans-serif; color: #222;}
+a {text-decoration: none; color: #222;}
+ul, ol, li {list-style: none;}
+img, fieldset {border: none; vertical-align: middle;}
+strong, em, address {font-weight: normal; font-style: normal;}
+table {border-collapse: collapse;}
+
+/* layout */
+.wrap_width {width: 100%; margin: 0 auto;}
+.box_width {width: 1224px; margin: 0 auto;}
+
+/* header */
+#header {height: 96px;}
+
+.logo {float: left; width: 137px; height: 36px; margin: 30px auto;}
+.logo img {width: 137px; height: 36px;}
+
+.gnb {float: right;}
+.gnb li {float: left; line-height: 94px; margin-left: 32px;}
+.gnb li a {font-size: 18px;}
+.gnb li:first-child {margin-left: 0;}
+.gnb li a:hover {color: #9037be;}
+
+#header .on {color: #9037be; font-weight: bold;}
+
+/* top 버튼 */
+.top_btn {position: fixed; right: 30px; bottom: 30px; width: 45px; height: 45px; z-index: 10;}
+
+/* footer */
+#footer {position: relative; width: 100%; height: 362px; background: #edf9f4; background: url(../img/footer_bg.jpg) no-repeat 50% 0;}
+
+.footer_box {position: relative;}
+.contact {float: left; font-size: 20px; font-weight: bold; padding-top: 72px;}
+.line_img {display: block; width: 34px; height: 2px; margin: 14px 0;}
+.contact ul li {font-size: 14px; font-weight: normal; line-height: 28px;}
+.contact ul li span {width: 110px; font-weight: bold; display: inline-block;}
+
+.footer_logo {width: 255px; height: 240px; position: absolute; right: 0; top: 37px;}
+#footer .rights {position: absolute; left: 50%; bottom: 0; transform: translateX(-50%); width: 100%; height: 48px; background: #f7eee2; text-align: center; line-height: 46px;}
+#footer .rights span {font-weight: bold;}

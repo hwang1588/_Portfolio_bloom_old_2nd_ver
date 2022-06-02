@@ -1,0 +1,41 @@
+.randing_title {width: 100%; height: 360px; position: relative; background: url(../img/myce-title.jpg) no-repeat 50% 0;}
+.randing_title p {position: absolute; left: 0; top: 50%; transform: translateY(-50%); width: 100%; text-align: center; color: #fff; font-size: 42px; font-weight: bold;}
+
+.randing_text {position: relative; padding-bottom: 96px;}
+.title_img {position: absolute; left: 38px; top: 50px; width: 22px; height: 106px;}
+.title_img::before {content: ""; height: 110px; width: 3px; position: absolute; right: -10px; top: -2px; background: #222;}
+.title_img {width: 22px; height: 89px;}
+
+.content {width: 960px; margin: 0 auto; padding: 50px 0;}
+.content .content_title {font-size: 24px; margin-bottom: 32px;}
+.content .content_text {width: 960px; height: 300px; font-size: 16px; line-height: 26px; padding-bottom: 64px;}
+.content .content_text_pay {width: 960px; font-size: 16px; line-height: 26px;}
+
+.content1,
+.content3 {left: 0;}
+
+.content2 {right: 0; text-align: right;}
+
+.content_text {position: relative;}
+.content_text p {position: absolute; top: 50%; transform: translateY(-50%);}
+
+.content1 {height: 300px;}
+.content1_img {float: right; width: 300px; height: 300px;}
+.content1_img img {width: 300px; height: 300px;}
+
+.content2 {height: 300px;}
+.content2_img {float: left; width: 300px; height: 300px;}
+.content2_img img {width: 300px; height: 300px;}
+
+.content3 {height: 300px;}
+.content3_img {float: right; width: 300px; height: 300px;}
+.content3_img img {width: 300px; height: 300px;}
+
+
+.content4 {padding-bottom: 64px;}
+.content4_img {text-align: center;}
+.content4_img img {width: 616px; height: 400px;}
+
+.content .myce_btn {width: 180px; margin: 0 auto; padding-top: 36px;}
+.content .myce_btn a {display: block; width: 180px; height: 48px; font-size: 14px; font-weight: bold; 
+    color: #fff; line-height: 48px; text-align: center; background: #ae76d7; border-radius: 5px;}

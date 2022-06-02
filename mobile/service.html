@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>부름 :: 실생활 모임 정보 플랫폼</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="shortcut icon" href="favicon.ico">
+            <meta name="description" content="국내 최대 예약 전문 플랫폼, 최대 30%할인된 가격으로 만나보세요!">
+        <meta name="keywords" content="">
+        <meta content="yes" name="apple-mobile-web-app-capable" />
+        <meta content="minimum-scale=1.0, width=device-width, maximum-scale=1, user-scalable=no initial-scale=1.0" name="viewport" />
+        <meta name="viewport" content="viewport-fit=cover">
+        <meta name="format-detection" content="telephone=no">
+        <link href="css/common.css" rel="stylesheet" type="text/css">
+        <link href="css/bloom.css" rel="stylesheet" type="text/css">
+        <link href="../font/stylesheet.css" rel="stylesheet" type="text/css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap" rel="stylesheet"> <!-- font-family: 'Nanum Brush Script', cursive; -->
+        <!--[if lt IE 9]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+        <![endif]-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
+        <script src="../js/ui.js"></script> 
+    </head>
+    <body>
+        <header id="header">
+            <h1 class="logo"><a href="index.html"><img src="../img/logo_new.png" alt="모두의 행사 BLOOM"></a></h1>
+
+            <div class="header_menu">
+                <a href="#" class="all"><span>메뉴</span></a>
+                <div>
+                    <ul class="gnb">
+                        <li><a href="service.html">SERVICE</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                    </ul>
+                </div>
+            </div> <!-- e: header_menu -->
+        </header> <!-- e: header -->
+        
+        <div id="visual" class="service">
+            <div class="randing_title">
+                <p>
+                    서비스 안내
+                </p>
+            </div>
+
+            <div class="randing_text">
+                <h2>서비스(플랫폼) 소개</h2>
+
+                <p class="content_text">
+                    <div class="service_img">
+                        <span>
+                            <img src="../img/service-phone.png">
+                        </span>
+                        <ul>
+                            <li>
+                                <span>국내 최초, 최대 이벤트 정보 플랫폼</span><br>
+                                생일, 결혼, 회식, 돌잔치, 피로연 등 가족 행사부터 지역 축제, 관광명소 투어 이벤트, 대규모 스포츠 행사까지 대한민국의 수십만 모든 행사를 한번에!<br>
+                            </li>
+                            <li>
+                                <span>최대 30% 할인과 다양한 혜택 제공</span><br>
+                                구매자는 최대 30% 할인된 가격으로 구매가 가능하며, 판매자는 효율적인 판매 관리 시스템을 통해 성공적인 매출 관리가 가능<br>
+                            </li>
+                            <li>
+                                <span>고객 맞춤형 상품 리스트 제공</span><br>
+                                모바일 앱 실행 시 사용자 핸드폰의 Data를 분석하여 개인화된 콘텐츠를 화면에 표시<br>
+                            </li>
+                        </ul>
+                    </div>
+                </p>
+            </div>
+            <div class="randing_text">
+                <h2>제휴사 혜택</h2>
+                <p class="content_text">
+                    <div class="benefit_img">
+                        <span>'부름'에 등록하면 좋은 점은?</span>
+                        <div class="benefit_img_wrap">
+                            <div
+                            >
+                                <img src="../img/benefit01.png" />
+                            </div>
+                            <div
+                            >
+                                <img src="../img/benefit02.png" />
+                            </div>
+                            <div
+                            >
+                                <img src="../img/benefit03.png" />
+                            </div>
+                            <div
+                            >
+                                <img src="../img/benefit04.png" />
+                            </div>
+                        </div>
+                    </div>
+                </p>
+            </div>
+        </div>
+
+        <footer id="footer">
+            <div class="footer_box">
+                <div class="contact">
+                    CONTACT US
+                    <img class="line_img" src="../img/line-g.png">
+                    <ul>
+                        <li><span>회사명</span>&nbsp;(주)나목 ㅣ 대표자 옥순호</li>
+                        <li><span>주소</span>&nbsp;서울특별시 강남구 역삼동 823-20 쁠랑빌딩 2층</li>
+                        <li><span>TEL</span>&nbsp;02-2038-3949 ㅣ 사업자등록번호 87-87-02115</li>
+                        <li><span>FAX</span>&nbsp;02-2038-3139 ㅣ 통신판매번호 2021-서울강남-03985</li>
+                        <li><span>E-MAIL</span>&nbsp;namok@namok.co.kr</li>
+
+                    </ul>
+                </div>
+                <div class="footer_logo">
+                    <a href="#"><img src="../img/footer_logo-1.png"></a>
+                </div>
+            </div>
+            <div class="rights">© 2020 <span>NAMOK</span> . All Rights Reserved</div>
+        </footer> <!-- e: footer -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                console.log($(window).scrollTop());
+     
+                skrollr.init({
+                    forceHeight: false,
+                    mobileCheck: function(){
+                        if((/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera)){
+                            // mobile device
+                        }
+                    }
+                });
+            });
+        </script>
+    </body>
+</html>

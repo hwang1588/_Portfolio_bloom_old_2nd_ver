@@ -1,0 +1,101 @@
+.randing_title {width: 100%; margin: 0 auto; text-align: center; padding: 96px 0; font-size: 3em; font-weight: bold; color: #fff;}
+
+.bloom .randing_title {background: url(../../img/about_bloom_title.jpg) no-repeat 50% 0; background-size: cover;}
+.service .randing_title {background: url(../../img/service_title.jpg) no-repeat 50% 0; background-size: cover;}
+.myce .randing_title {background: url(../../img/myce-title.jpg) no-repeat 50% 0; background-size: cover;}
+.faq .randing_title {background: url(../../img/faq_title.jpg) no-repeat 50% 0; background-size: cover;}
+
+
+
+.randing_text {width: 85%; margin: 0 auto; padding-top: 54px;}
+.randing_text h2 {font-weight: bold; font-size: 3rem; padding-bottom: 36px;}
+.randing_text .content_text {font-size: 1.6rem; padding-bottom: 36px;line-height:3.2rem;}
+
+/* bloom.html */
+.bloom .content_text span {display: block; text-align: center; font-weight: bold; font-size: 1.2em;}
+.bloom .content_text span strong {color: #ff1a31; font-weight: bold;}
+
+.bloom .brand_img {margin: 0 auto;}
+.bloom .brand_img img {width: 60%; display: block; margin: 0 auto; padding-bottom: 36px;}
+
+/* service.html */
+.service .service_img {height: 600px; position: relative;}
+
+.service .service_img img {width: 40%; position: absolute; left: 0; top: 50%; transform: translateY(-50%);}
+
+.service .service_img ul {width: 50%; position: absolute; right: 0;}
+.service .service_img ul li {font-size: 1.6rem; line-height: 2.2rem;margin-bottom:30px;}
+.service .service_img ul li:last-child {padding-bottom: 0;}
+.service .service_img ul li span {font-weight: bold; line-height: 2em;}
+
+.service .benefit_img span {display: block; text-align: center; font-weight: bold; font-size: 1.8rem; padding-bottom: 36px;}
+.service .benefit_img img {width: 90%; display: block; margin: 0 auto; padding-bottom: 36px;}
+
+/* myce.html */
+.myce .content_text {margin-bottom: 36px; height: 320px; position: relative;}
+.myce .content_text p {width: 50%;}
+.myce .content_text div {width: 40%;}
+.myce .content_text div img {width: 100%;}
+
+.myce .content1,
+.myce .content3 {position: absolute; left: 0; top: 50%; transform: translateY(-50%);}
+
+.myce .content1_img,
+.myce .content3_img {position: absolute; right: 3%; top: 50%; transform: translateY(-50%);}
+
+.myce .content2 {position: absolute; right: 0; top: 50%; transform: translateY(-50%);}
+
+.myce .content2_img {position: absolute; left: 3%; top: 50%; transform: translateY(-50%);}
+
+.myce .content4_text .content4 {width: 100%;}
+.myce .content4_text .content4_img {width: 600px; height: 390px; margin: 36px auto;}
+.myce .content4_text .content4_img img {width: 600px; height: 390px;}
+
+.myce .myce_btn {width: 20%; padding-top: 12px; padding-bottom: 42px; margin: 0 auto;}
+.myce .myce_btn a {display: block; width: 100%; height: 48px; font-size: 14px; font-weight: bold; 
+    color: #fff; line-height: 48px; text-align: center; background: #ae76d7; border-radius: 5px;}
+
+/* faq */
+.tab_menu{width:100%;margin-bottom:30px;}
+.tab_menu ul{overflow:hidden;}
+.tab_menu ul li{display:inline-block;font-size:1.6rem;color:#232323;font-weight:bold;cursor:pointer;margin-right:20px;margin-top:20px}
+.tab_menu ul li:last-child{margin-right:0px;}
+.tab_menu ul li.on{border-bottom:2px solid #9037be;padding-bottom:10px}
+.tab_content{display:none}
+.tab_content.current{display:inherit;}
+.faq_wrap{width:100%;clear:both;margin-top:50px;min-height:51vh;margin-bottom:50px}
+.faq{width:100%;margin:0 auto;border-top:2px solid #333;border-top:2px solid #333;}
+.faq h2{float:left;width:100%;font-size:3rem;font-weight:bold;margin-bottom:30px}
+.faq h2 span{float:right}
+.faq div{clear:both;}
+dl{border-bottom:1px solid #ccc}
+dt{font-size:1.8rem;padding:20px;cursor: pointer;overflow:hidden;}
+dt h3{float:left;font-size:1.2rem;margin-right:20px;font-weight:400;margin-top:5px;margin-bottom:20px;color:#9037be !important;font-weight:bold;}
+dt p{clear:both;display:block;}
+dd{color:#666;padding:2rem;font-size:1.6rem;line-height:3.2rem;border-top:1px solid #ccc;display:none;}
+dd span{color:red;margin-top:10px;display:block;}
+
+.benefit_img_wrap {
+    width: 90%; 
+    height: 630px; 
+    margin:50px auto;
+    background:url(../../img/benefit-2.png) no-repeat center center;
+    position: relative;
+}
+.benefit_img_wrap div{position:absolute;}
+.benefit_img_wrap div:nth-child(1){
+    top:46px;
+    left:50px;
+}
+.benefit_img_wrap div:nth-child(2){
+    top:46px;
+    right:30px;
+}
+.benefit_img_wrap div:nth-child(3){
+    top:368px;
+    left:60px;
+}
+.benefit_img_wrap div:nth-child(4){
+    top:368px;
+    right:0px;
+}

@@ -1,0 +1,29 @@
+.randing_title {width: 100%; height: 360px; position: relative; background: url(../img/faq_title.jpg) no-repeat 50% 0;}
+.randing_title p {position: absolute; left: 0; top: 50%; transform: translateY(-50%); width: 100%; text-align: center; color: #fff; font-size: 42px; font-weight: bold;}
+
+.randing_text {position: relative; padding-bottom: 96px;}
+.title_img {position: absolute; left: 38px; top: 50px; width: 22px; height: 89px;}
+.title_img::before {content: ""; height: 94px; width: 3px; position: absolute; right: -10px; top: -2px; background: #222;}
+.title_img {width: 22px; height: 89px;}
+.content {width: 960px; margin: 0 auto; padding: 50px 0;}
+.content .content_title {font-size: 24px; margin-bottom: 32px;}
+.content .content_text {font-size: 16px; line-height: 26px;}
+.tab_menu{width:100%}
+.tab_menu ul{overflow:hidden;}
+.tab_menu ul li{float:left;display:inline-block;font-size:24px;color:#232323;font-weight:bold;cursor:pointer;margin-right:40px}
+.tab_menu ul li:last-child{margin-right:0px;}
+.tab_menu ul li.on{border-bottom:2px solid #9037be;padding-bottom:10px}
+.tab_content{display:none}
+.tab_content.current{display:inherit;}
+
+.faq_wrap{width:100%;clear:both;margin-top:50px;min-height:400px;}
+.faq{width:100%;margin:0 auto;border-top:2px solid #333}
+.faq h2{float:left;width:100%;font-size:30px;font-weight:bold;margin-bottom:30px}
+.faq h2 span{float:right}
+.faq div{border-top:2px solid #333;clear:both;}
+dl{border-bottom:1px solid #ccc}
+dt{font-size:18px;padding:30px 20px;cursor: pointer;overflow:hidden;}
+dt h3{float:left;font-size:12px;margin-right:20px;font-weight:400;margin-top:5px;width:130px;}
+dt p{float:left;}
+dd{color:#666;padding:50px 20px;font-size:14px;line-height:34px;border-top:1px solid #ccc;display:none;}
+dd span{color:red;margin-top:10px;display:block;}

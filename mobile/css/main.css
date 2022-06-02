@@ -1,0 +1,123 @@
+/* visual */
+#visual {overflow-x: hidden;}
+.title_box .sub {font-size: 3rem; font-family: 'Courgette', cursive; padding-top: 72px; line-height: 1.3em;}
+.title_box h2 {font-size: 3rem; font-weight: bold;}
+.title_box img {display: block; width: 69px; padding: 24px 0;}
+.title_box .text_box {font-size: 2rem; line-height: 2em; color: #8d8d99;}
+
+/* slider */
+.slider {width: 100%; height: auto; margin: 0 auto; position: relative;}
+.slider .img_box > img {width: 100%; height: 100%; margin: 0 auto;}
+
+.slider_text {position: absolute; width: 100%; left: 50%; top: 90%; transform: translate(-50%, -50%); text-align: center;}
+.slider_text p {font-size: 4em; line-height: 2em; font-family: 'Courgette', cursive;}
+.slider_text span {font-size: 4em; font-weight: bold;}
+
+.slider .slider_down {margin: 0 auto; margin-top: 32px;}
+.slider .slider_down li { display:inline-block;}
+.slider .slider_down li:last-child {margin-left: 0;}
+.slider .slider_down li a {display: block; width:100%;}
+.slider .slider_down li img {display: block; width:100%;}
+
+/* about */
+.section {background: url(../../img/m_section_bg.png) no-repeat 50% 0; background-size: cover;}
+
+.about .sub {color: #e08b4b; text-align: center;}
+.about .title {text-align: center;}
+.about .title_box img {margin: 0 auto;}
+.about .text_box {text-align: center;}
+.about .text_box span {font-weight: bold; color: #222;}
+
+.about_list {width: 80%; height: 1200px; margin: 0 auto; text-align: center; padding: 72px 0;}
+.about_list li {width: 50%; float: left; padding-bottom: 24px;}
+.about_list .list_img {display: block; width: 50%; height: auto; margin: 0 auto;}
+.about_list span {display: block; font-weight: bold; font-size: 2rem; margin-top: 10px;}
+.about_list .line {margin: 18px auto;}
+.about_list p {color: #8d8d99; font-size: 1.5rem;line-height:3rem;}
+
+/* made */
+.made {position: relative; height: 800px;}
+.made .sub {color: #91ad41; padding-top: 0;}
+.made .title_box {width: 37%; float: left; position: absolute; left: 10%; top: 50%; transform: translateY(-50%);}
+
+.made_img {position: absolute; right: 10%; top: 50%; transform: translateY(-50%); width: 38%; border: 10px solid #fff; box-shadow: 5px 5px 10px #ddd;}
+.made_img img {width: 100%; height: auto; display: block;}
+
+/* service */
+.service {background: #f7eee2; margin: 0 auto;}
+
+.service .title_box {text-align: center;}
+.service .sub {color: #91ad41;}
+.service .title_box img {margin: 0 auto;}
+
+.service_img {width: 80%; margin: 0 auto; padding: 54px 0;}
+.service_img img {width: 100%; height: auto; display: block;}
+
+.service_btn {width: 20%; margin: 0 auto; padding-bottom: 72px;}
+.service_btn a {display: block; width: 100%; height: 48px; font-size: 0.75em; font-weight: bold; color: #fff; line-height: 48px; 
+    text-align: center; background: #91ad41; border-radius: 5px;}
+
+/* bloom */
+.bloom .title_box {text-align: center;}
+.bloom .sub {font-family: 'Nanum Brush Script', cursive; color: #91ad41;}
+.bloom .title {font-size: 2rem;}
+.bloom .title_box img {margin: 0 auto;}
+
+.bloom_list {width: 70%; height: 1056px; margin: 0 auto; margin-top: 54px; margin-bottom: 64px;}
+.bloom_list li {width: 40%; height: 320px; margin-left: 5%; margin-right: 5%; float: left; border: 1px solid #f5f6fb; 
+    border-radius: 10px; position: relative; margin-bottom: 32px; box-shadow: 5px 5px 6px #eee;}
+.bloom_list p {font-size: 1.5em; line-height: 1.7em; font-family: 'Courgette', cursive; color: #fff; width: 100%; position: absolute; top: 20%; text-align: center;}
+.bloom_list li a {width: 100%; height: 100%; display: block;}
+.bloom_list li img {width: 100%; height: auto; display: block; border-radius: 10px 10px 0 0;}
+.bloom_list li div {width: 100%; height: 96px; background: #f5f6fb; position: absolute; left: 0; bottom: 0; 
+    text-align: center; line-height: 96px; font-weight: bold; border-radius: 0 0 10px 10px; font-size: 1.6rem; z-index: 2;}
+
+/* history */
+.history_wrap {width: 100%;  background: #f5fcf9; position: relative; z-index: -2;}
+.history {width: 85%; margin: 0 auto;}
+.history .sub {color: #91ad41; padding-top: 172px;}
+
+.history_btn {width: 20%; padding: 32px 0 54px 0;}
+.history_btn a {display: block; width: 180px; height: 48px; font-size: 0.75em; font-weight: bold; color: #fff; line-height: 48px; 
+    text-align: center; background: #91ad41; border-radius: 5px;}
+
+.history_img {width: 90%; margin: 0 auto; border-bottom: 1px solid #ddd; padding-bottom: 64px;}
+.history_img img {width: 100%;}
+
+.brand_img {width: 80%; margin: 0 auto;}
+.brand_img img {width: 100%; height: auto; display: block; padding: 64px 0;}
+.brand_img p {text-align: center; font-size: 1.5em; font-weight: bold; padding-bottom: 172px;}
+
+.history_top,
+.history_bottom {width: 100%; position: absolute; left: 50%; transform: translateX(-50%); z-index: -1;}
+
+.history_top {top: 0;}
+.history_bottom {bottom: 0;}
+
+/* app */
+.app_wrap {width: 100%; background: #f7eee2; z-index: -2;}
+.app {width: 80%; margin: 0 auto;}
+.app .sub {color: #91ad41; padding-top: 54px;}
+
+.app_bg {width: 100%; height: auto; padding: 54px 0; background: url(../../img/m_app_bg2.png) no-repeat 50% 0; background-size: cover;}
+.app_bg img {width: 100%; height: auto; display: block;}
+
+.app_wrap .beta {width: 80%; padding-top: 32px; margin: 0 auto; text-align: center;}
+.app_wrap .beta p {font-size: 2rem; font-weight: bold; line-height: 64px;}
+.app_wrap .beta p span {width: 16px; height: 16px; background: url(../../img/arrow.png) no-repeat 0 6px; color: transparent;}
+.app_wrap .beta div {font-size: 1.6rem; line-height: 3.2rem; color: #8d8d99;}
+
+.app_btn {width:45%; padding: 32px 0 30px 0; margin: 0 auto;}
+.app_btn a {display: block; width: 80%; height: 53px; font-size: 0.75em; font-weight: bold; color: #fff; line-height: 48px; 
+    text-align: center; background: #222; border-radius: 5px;}
+
+/* story */
+.story .title_box {text-align: center;}
+.story .sub {color: #91ad41;}
+.story .title {font-size: 2rem; font-weight: normal;}
+
+.story_img {display:block; width: 100%; height: auto; padding-top: 64px; padding-bottom: 96px; margin: 0 auto;}
+.story_img img {display: block; width: 100%; height: auto;}
+
+
+.slick-initialized .slick-slide{position:relative}
