@@ -1,4 +1,4 @@
-# Website_Bloom(3rd ver.)
+# Website_Bloom(old 2nd ver.)
 
 ## Stack
 
